@@ -1,0 +1,176 @@
+/* Default styles */
+body {
+  background-color: #333;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*Media queries for responsive design
+*/
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  li {
+    margin-bottom: 2px;
+  }
+  footer {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+/* Additional styles for AI website */
+
+/* Header styles */
+header {
+  background-color: rgb(11, 170, 222);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Main content styles */
+main {
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+img.art {
+  display: block;
+  margin: 0 auto;
+  filter: grayscale();
+  transition: ease-in-out 0.2s;
+}
+img.art:hover {
+  filter: none;
+  scale: 1.05;
+  border-radius: 6px;
+}
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #eee;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Harvard citation style */
+.citation {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.citation a {
+  color: #333;
+  text-decoration: none;
+}
+
+.citation:before {
+  content: "\2014 \0020";
+}
